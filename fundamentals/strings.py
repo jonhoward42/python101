@@ -23,5 +23,18 @@ print(firstname + lastname)
 print(firstname * 5)
 print((firstname + lastname) * 5)
 
+## Slicing up strings
+variable4 = "My string"
+print(variable4)
+print(variable4[4]) # <- Print the 4th digit (starting from 0)
+print(variable4[0]) # <- Print the leading digit (digit 0)
+print(variable4[3:8]) # <- Print digits starting from 3 and finish when 8th is reached (3 to 7 basically)
+print(variable4[:2]) # <- Print up to, and excluding, digit 2 (so 0 & 1)
+print(variable4[3:]) # <- Print digit 3, onwards
+
+## Determining the length of a string
+variable5 = "Hello world"
+print(variable5)
+print(len(variable5))
 
 
