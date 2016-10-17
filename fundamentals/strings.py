@@ -18,7 +18,7 @@ print(r"c:\this\is\a\new\folder") # <- The "r" interprets the string, literally
 
 ## Manipulating variables
 firstname = "Jon "
-lastname = "Howard"
+lastname = "Howard "
 print(firstname + lastname)
 print(firstname * 5)
 print((firstname + lastname) * 5)
