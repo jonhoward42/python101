@@ -41,3 +41,7 @@ for i in range(10, 0, -1):
                 print('{0} green bottles hanging on the wall, {0} green bottles hanging on the wall.'.format(i))
                 print('And if 1 green bottle should to accidentall fall, there\'d be {0} green bottles hanging on the wall.'.format(i - 1))
 
+## Display all multiples of 4 in a range of 0 to 100
+for i in range(101):
+	if (i % 4 == 0):
+		print(i)
