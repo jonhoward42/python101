@@ -11,6 +11,11 @@ def shutdown():
         print("** Shutdown screen **")
         print("*********************")
 
+def lineSeparator():
+	print("")
+	print("*********************")
+	print("")
+
 def currencyConvert(amount):
 	rate = 1.5
 	print('Converted amount is: {0}'.format(amount / rate))
@@ -28,11 +33,22 @@ def get_gender(sex = 'Unknown'): # <- Default value to assume if none is provide
         sex = 'Female'
     print(sex)
 
+## More with default values, but with multiple variables
+def dumb_sentence(name='Amanda', action='drank', item='vodka'):
+  print("{0} {1} {2}".format(name, action, item))
+
 startup()
 currencyConvert(25)
+lineSeparator()
 print('My ideal GF age is: {0}'.format(idealGfAge(37)))
+lineSeparator()
 get_gender('m')
 get_gender('f')
 get_gender()
+lineSeparator()
+dumb_sentence()
+dumb_sentence("Rachel", "looks", "hot")
+dumb_sentence(item='wine')
+dumb_sentence(item='smoking hot', action='is')
 shutdown()
 
